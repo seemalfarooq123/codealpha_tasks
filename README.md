@@ -63,16 +63,45 @@ python app.py
 http://127.0.0.1:5000
 ---
 
-## 📌 Status
-✔ Task 1 Completed  
-⏳ Task 2 In Progress  
+✅ Task 2: Chatbot for FAQs
+🔧 Technologies Used
+Python
+Flask
+HTML, CSS
+Scikit-learn (TF-IDF, Cosine Similarity)
+NLTK (Text preprocessing)
+🚀 Features
+💬 Interactive chatbot interface
+🧠 NLP-based text preprocessing
+🔍 FAQ matching using cosine similarity
+⚡ Real-time response generation
+🎨 Modern UI design
+🖥️ How It Works
+User enters a query
+Text is preprocessed (lowercase, punctuation removal)
+TF-IDF vectorization is applied
+Cosine similarity finds the closest FAQ
+Best matching answer is returned
+📁 Project Structure
+Task2_chatbot/
+│── app.py
+│── templates/
+│   └── index.html
+▶️ How to Run
+pip install flask scikit-learn nltk
+python app.py
 
----
+Open in browser:
 
-## 🙌 Acknowledgment
+http://127.0.0.1:5000
+📌 Status
+
+✔ Task 1 Completed
+✔ Task 2 Completed
+
+🙌 Acknowledgment
+
 This project is submitted as part of the CodeAlpha AI Internship program.
 
----
-
-## 🔗 Author
-**Seemal Farooq**
+🔗 Author
+Seemal Farooq
